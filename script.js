@@ -7,9 +7,3 @@ function visualList() {
   menuNav.classList.toggle("active");
 }
 menuList.addEventListener("click", visualList);
-
-const modoNigth = document.getElementById("modo-nigth");
-function moduloNigth() {
-  document.body.style.background = "black";
-}
-modoNigth.addEventListener("click", moduloNigth);

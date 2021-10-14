@@ -45,7 +45,6 @@ header {
 
 #links {
   display: flex;
-
   width: 80%;
   margin: 0 auto;
   padding: 10px;
@@ -65,6 +64,7 @@ header {
   padding: 5px;
   text-decoration: none;
   color: #22343d;
+  width: 50%;
 }
 #links > ol > li :hover {
   color: #517b91;
@@ -101,13 +101,6 @@ header {
   top: 23px;
 }
 
-#modo-nigth {
-  margin-right: 100px;
-  border-style: none;
-  background-color: #fff;
-  cursor: pointer;
-}
-
 #menu-checkbox {
   width: 20px;
   height: 20px;
@@ -125,7 +118,6 @@ header {
 #section-work {
   display: flex;
   align-items: center;
-  align-items: center;
   justify-content: center;
   width: 100%;
   margin: 40px auto;
@@ -141,7 +133,6 @@ header {
   width: 90%;
 }
 #Text-Work {
-  font-family: "Poppins", sans-serif;
   color: #22343d;
   font-style: normal;
   font-weight: bold;
@@ -216,7 +207,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
   text-align: center;
   font-style: normal;
   font-weight: bold;
@@ -881,7 +871,7 @@ footer {
     position: absolute;
     width: 100%;
     top: 90px;
-    right: 0px;
+    right: 0;
     background: #e7e7e7;
     height: calc(100vh -70);
     z-index: 1000;
