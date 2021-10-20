@@ -861,7 +861,7 @@ footer {
 .active {
   display: block;
 }
-@media (max-width: 980px) {
+@media (max-width: 880px) {
   #menu-checkbox {
     display: block;
   }
@@ -876,7 +876,7 @@ footer {
     display: none;
     position: absolute;
     width: 100%;
-    top: 90px;
+    top: 80px;
     right: 0;
     background: #e7e7e7;
     height: calc(100vh -70);
@@ -938,7 +938,7 @@ footer {
     margin: 0 auto;
   }
   #img-work img {
-    width: 467px;
+    width: 100%;
     margin: 10px auto;
   }
   /*products*/
@@ -969,7 +969,7 @@ footer {
     margin: 0 auto;
   }
   #img-management img {
-    width: 467px;
+    width: 100%;
     margin: 10px auto;
   }
   .text-description {
@@ -983,7 +983,7 @@ footer {
     margin: 0 auto;
   }
   #img-customer img {
-    width: 467px;
+    width: 100%;
     margin: 10px auto;
   }
   /*collaborative*/
@@ -1000,7 +1000,7 @@ footer {
     margin: 0 auto;
   }
   #img-collaborative img {
-    width: 467px;
+    width: 100%;
     margin: 10px auto;
   }
   /*conversation*/
