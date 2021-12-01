@@ -122,6 +122,7 @@ header {
 /*main*/
 #section-work {
   display: flex;
+  flex-wrap: wrap-reverse;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -858,54 +859,18 @@ footer {
   cursor: pointer;
 }
 
-.active {
-  display: block;
-}
 @media (max-width: 780px) {
   #menu-checkbox {
     display: block;
   }
-  .menu-nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    box-shadow: gainsboro 0px 3px 3px;
-  }
+
   #links {
     display: none;
-    position: absolute;
-    width: 100%;
-    top: 80px;
-    right: 0;
-    background: #e7e7e7;
-    height: calc(100vh -70);
-    z-index: 1000;
-  }
-  #links.active {
-    display: block;
-  }
-  #group-bottons.active {
-    display: block;
-    margin-right: 10px;
-  }
-  .login {
-    float: right;
-    margin-left: 5px;
-  }
-  .created {
-    float: right;
   }
   #group-bottons {
     display: none;
   }
-  #modo-nigth {
-    display: none;
-  }
-  .div-title {
-    width: 50px;
-    margin-left: 40px;
-  }
+
   /*main*/
   #section-work {
     display: flex;
